@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/blog/(.*)",
-      "destination": "https://acme.com/blog"
+      "destination": "https://acme.com/blog/$1"
     }
   ]
 }
