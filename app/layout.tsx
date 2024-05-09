@@ -28,6 +28,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <MakeswiftProvider>{children}</MakeswiftProvider>
+        <Analytics />
       </body>
     </html>
   )
